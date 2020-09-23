@@ -1,0 +1,7 @@
+version: "3"
+services:
+  nodeapp:
+    image: jtwa551/ex32:latest
+    ports:
+      - 80:8080
+    container_name: nodeapp
