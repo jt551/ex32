@@ -4,8 +4,5 @@ orbs:
 workflows:
   heroku_deploy:
     jobs:
-      - heroku/push-docker-image:
-          app-name: ex32
-      - heroku/release-docker-image:
-          app-name: ex32
+      - heroku/deploy-via-git
   
